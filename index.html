@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section class="age_calculator_container">
+      <form class="age_calculator" onsubmit="calculate_age(event,this);">
+
+        <div class="input_container">
+          <label for="day_input">Day</label>
+          <input type="number" name="day" id="day_input" placeholder="DD">
+          <span class="error_msg"></span>
+        </div>
+
+        <div class="input_container">
+          <label for="month_input">Month</label>
+          <input type="number" name="month" id="month_input" placeholder="MM">
+          <span class="error_msg"></span>
+        </div>
+
+        <div class="input_container">
+          <label for="year_input">Year</label>
+          <input type="number" name="year" id="year_input" placeholder="YYYY">
+          <span class="error_msg"></span>
+        </div>
+
+        <div class="submit_btn_container">
+          <button type="submit"><img src="./assets/images/icon-arrow.svg" alt="submit_button"></button>
+        </div>
+      </form>
+
+      <p class="result_text nowrap"><span id="age_y">--</span> years</p>
+      <p class="result_text nowrap"><span id="age_m">--</span> months</p>
+      <p class="result_text nowrap"><span id="age_d">--</span> days</p>
+
+    </section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/AnujPanthri">Anuj Panthri</a>.
+  </div>
+
+  <script defer src="script.js"></script>
+</body>
+
+</html>
