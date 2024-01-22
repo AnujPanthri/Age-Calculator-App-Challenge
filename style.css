@@ -136,13 +136,18 @@ main {
 
 .age_calculator .input_container input {
     color: var(--Off-black);
-    /* width:6ch; */
     font-size: 0.6em;
     font-weight: 800;
     padding: 0.5em 0.5em;
     border-radius: 10px;
     border: none;
     border: 1px solid var(--Light-grey);
+    outline: none;
+    caret-color: var(--Purple);
+}
+
+.age_calculator .input_container input:focus {
+    border: 1px solid var(--Purple);
 }
 
 /* styling for error */
@@ -204,7 +209,10 @@ main {
     height: 0.7rem;
     aspect-ratio: 1;
 }
+.age_calculator .submit_btn_container>button:is(:hover,:focus) {
+    background-color: var(--Off-black);
 
+}
 
 .age_calculator_container .result_text {
     font-style: italic;
