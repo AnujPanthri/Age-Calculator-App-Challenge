@@ -13,8 +13,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/AnujPanthri/Age-Calculator-App-Challenge](https://github.com/AnujPanthri/Age-Calculator-App-Challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://anujpanthri.github.io/Age-Calculator-App-Challenge/](https://anujpanthri.github.io/Age-Calculator-App-Challenge/)
 
 ## My process
 
@@ -64,8 +62,6 @@ Example 21-01-2024 can be represented to 52-12-2023 (day=31(December)+21) .
 ### Useful resources
 
 - [Collegevidya age-calculator](https://collegevidya.com/tool/age-calculator/) - For getting idea about how to calculate exact age . I just used this to get the ideas their logic doesn't takes care of every month it just considers every month to be 30 days.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
